@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container">
-    <form>
+    <form method="get"> <!--dodac jeszcze "action" i do jakiego pliku ma przeslac dane-->
         <!--Podanie tytułu -->
         <div class="row">
             <div class="col-md-8">

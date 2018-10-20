@@ -37,7 +37,12 @@
     </tr>
     </tbody>
 </table>
-
+<div>
+    <button type="button" class="btn btn-success btn-lg">Add</button>
+    <button type="button" class="btn btn-warning btn-lg">Edit</button>
+    <button type="button" class="btn btn-danger btn-lg">Delete</button>
+    <button type="button" class="btn btn-info btn-lg">Show</button>
+</div>
 
 
 </body>

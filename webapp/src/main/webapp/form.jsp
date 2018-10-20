@@ -16,12 +16,14 @@
 <body>
 <div class="container">
     <form>
+        <!--Podanie tytułu -->
         <div class="row">
             <div class="col-md-8">
                 <label for="inputTitle">Title</label>
                 <input type="text" class="form-control" id="inputTitle" placeholder="Title">
             </div>
         </div>
+        <!-- Podanie imienia i nazwiska autora -->
         <div class="row">
             <div class="form-group col-md-4">
                 <label for="inputFirstNameAuthor">Autor name</label>
@@ -32,12 +34,14 @@
                 <input type="text" class="form-control" id="inputLastNameAuthor" placeholder="Last name">
             </div>
         </div>
+        <!-- Podanie numeru ISBN -->
         <div class="row">
             <div class="from-group col-md-4">
             <label for="inputISBN">ISBN</label>
             <input type="text" class="form-control" id="inputISBN" placeholder="xxx-x-xxxx-xxxx-x">
             </div>
         </div>
+        <!-- Wybranie jednej z dostepnych categori ksiazki -->
         <div class="form">
             <div class="form-group col-md-4">
                 <label for="inputCategory">Category</label>
@@ -49,6 +53,7 @@
                 </select>
             </div>
         </div>
+        <!-- Przyciski -->
         <div>
             <button type="submit" class="btn btn-primary btn-lg">Add</button>
             <button type="submit" class="btn btn-danger btn-lg">Cancel</button>

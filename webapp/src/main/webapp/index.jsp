@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
+<!-- tabela do wyswietlania ksiazek -->
 <table class="table table-sm table-dark">
     <thead>
     <tr class="bg-primary">
@@ -37,8 +38,12 @@
     </tr>
     </tbody>
 </table>
-
-
-
+<!-- Przyciski edycji -->
+<div>
+    <button type="button" class="btn btn-success btn-lg">Add</button>
+    <button type="button" class="btn btn-warning btn-lg">Edit</button>
+    <button type="button" class="btn btn-danger btn-lg">Delete</button>
+    <button type="button" class="btn btn-info btn-lg">Show</button>
+</div>
 </body>
 </html>

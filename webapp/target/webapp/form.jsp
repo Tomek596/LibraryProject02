@@ -38,7 +38,7 @@
             <input type="text" class="form-control" id="inputISBN" placeholder="xxx-x-xxxx-xxxx-x">
             </div>
         </div>
-        <div class="form-row">
+        <div class="form">
             <div class="form-group col-md-4">
                 <label for="inputCategory">Category</label>
                 <select id="inputCategory" class="form-control">

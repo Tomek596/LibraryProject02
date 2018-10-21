@@ -42,8 +42,8 @@
 <div>
     <button type="button" class="btn btn-success btn-lg" name="action" value="ADD">Add</button>
     <button type="button" class="btn btn-warning btn-lg" name="action" value="EDIT">Edit</button>
-    <button type="button" class="btn btn-danger btn-lg">Delete</button>
-    <button type="button" class="btn btn-info btn-lg">Show</button>
+    <button type="button" class="btn btn-danger btn-lg"name="action" value="DELETE">Delete</button>
+    <button type="button" class="btn btn-info btn-lg"name="action" value="SHOW">Show</button>
 </div>
 </body>
 </html>

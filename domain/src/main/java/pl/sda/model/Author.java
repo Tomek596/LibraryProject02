@@ -1,17 +1,19 @@
 package pl.sda.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
 @Entity(name = "book")
 public class Author implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long idAuthor;
+    @Column(name = "FIRST_NAME", nullable = false, length = 20)
     String firstName;
+    @Column(name = "LAST_NAME", nullable = false, length = 30)
     String lastName;
+    @Column(name = "BIRTHDAY_PLACE", length = 30)
     Date birthPlace;
 
     public Author() {
@@ -24,8 +26,6 @@ public class Author implements Serializable {
         this.birthPlace = birthPlace;
     }
 
-    @Id
-    @Column(name = "ID", unique = true, nullable = false)
     public Long getIdAuthor() {
         return idAuthor;
     }
@@ -34,7 +34,6 @@ public class Author implements Serializable {
         this.idAuthor = idAuthor;
     }
 
-    @Column(name = "FIRST_NAME", nullable = false, length = 20)
     public String getFirstName() {
         return firstName;
     }
@@ -43,7 +42,6 @@ public class Author implements Serializable {
         this.firstName = firstName;
     }
 
-    @Column(name = "LAST_NAME", nullable = false, length = 30)
     public String getLastName() {
         return lastName;
     }
@@ -51,7 +49,7 @@ public class Author implements Serializable {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    @Column(name = "BIRTHDAY_PLACE", length = 30)
+
     public Date getBirthPlace() {
         return birthPlace;
     }

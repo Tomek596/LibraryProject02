@@ -30,6 +30,8 @@
         <td>Jacob</td>
         <td>Thornton</td>
         <td>@fat</td>
+        <td> </td>
+        <td> </td>
     </tr>
     <tr>
         <th scope="row">3</th>

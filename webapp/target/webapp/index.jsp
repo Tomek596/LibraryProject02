@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
+<!-- tabela do wyswietlania ksiazek -->
 <table class="table table-sm table-dark">
     <thead>
     <tr class="bg-primary">
@@ -29,6 +30,8 @@
         <td>Jacob</td>
         <td>Thornton</td>
         <td>@fat</td>
+        <td> </td>
+        <td> </td>
     </tr>
     <tr>
         <th scope="row">3</th>
@@ -37,13 +40,12 @@
     </tr>
     </tbody>
 </table>
+<!-- Przyciski edycji -->
 <div>
-    <button type="button" class="btn btn-success btn-lg">Add</button>
-    <button type="button" class="btn btn-warning btn-lg">Edit</button>
-    <button type="button" class="btn btn-danger btn-lg">Delete</button>
-    <button type="button" class="btn btn-info btn-lg">Show</button>
+    <button type="button" class="btn btn-success btn-lg" name="action" value="ADD">Add</button>
+    <button type="button" class="btn btn-warning btn-lg" name="action" value="EDIT">Edit</button>
+    <button type="button" class="btn btn-danger btn-lg"name="action" value="DELETE">Delete</button>
+    <button type="button" class="btn btn-info btn-lg"name="action" value="SHOW">Show</button>
 </div>
-
-
 </body>
 </html>
